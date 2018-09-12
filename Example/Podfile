@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XJHNetworkKit_Example' do
+  pod 'XJHNetworkKit', :path => '../'
+
+  target 'XJHNetworkKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

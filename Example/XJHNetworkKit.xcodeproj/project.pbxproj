@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C8476C214A0E8F0056FEA0 /* XJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8476B214A0E8F0056FEA0 /* XJHViewController.m */; };
+		15C8476F214A0EA00056FEA0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8476E214A0EA00056FEA0 /* SecondViewController.m */; };
+		15C84772214A17210056FEA0 /* HJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C84771214A17210056FEA0 /* HJBaseRequest.m */; };
+		15C84775214A17DA0056FEA0 /* HJMoodListAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C84774214A17DA0056FEA0 /* HJMoodListAPI.m */; };
 		56EF7B7F1D72A09724615E82 /* Pods_XJHNetworkKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244EE98B362A5F25E6B0EB6B /* Pods_XJHNetworkKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -14,7 +18,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* XJHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XJHAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XJHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +25,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BA36534CE7257E7E9925B335 /* Pods_XJHNetworkKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172A489BF01115FBE5BA6C4B /* Pods_XJHNetworkKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +40,15 @@
 
 /* Begin PBXFileReference section */
 		12740C6761A427C735E8354F /* Pods-XJHNetworkKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkKit_Example/Pods-XJHNetworkKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		164F43D4C1D8FE83C3F66254 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15C8476A214A0E8F0056FEA0 /* XJHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHViewController.h; sourceTree = "<group>"; };
+		15C8476B214A0E8F0056FEA0 /* XJHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHViewController.m; sourceTree = "<group>"; };
+		15C8476D214A0EA00056FEA0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		15C8476E214A0EA00056FEA0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		15C84770214A17210056FEA0 /* HJBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBaseRequest.h; sourceTree = "<group>"; };
+		15C84771214A17210056FEA0 /* HJBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseRequest.m; sourceTree = "<group>"; };
+		15C84773214A17DA0056FEA0 /* HJMoodListAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJMoodListAPI.h; sourceTree = "<group>"; };
+		15C84774214A17DA0056FEA0 /* HJMoodListAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJMoodListAPI.m; sourceTree = "<group>"; };
+		164F43D4C1D8FE83C3F66254 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		172A489BF01115FBE5BA6C4B /* Pods_XJHNetworkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHNetworkKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		244EE98B362A5F25E6B0EB6B /* Pods_XJHNetworkKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHNetworkKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6AE2F8920A75FCA06D344D /* Pods-XJHNetworkKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkKit_Tests/Pods-XJHNetworkKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,8 +62,6 @@
 		6003F59B195388D20070C39A /* XJHNetworkKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XJHNetworkKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* XJHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* XJHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XJHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XJHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XJHNetworkKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJHNetworkKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,9 +70,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		856C2C924C66419CCF298452 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A294494E7A0FD454C6B4D909 /* XJHNetworkKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XJHNetworkKit.podspec; path = ../XJHNetworkKit.podspec; sourceTree = "<group>"; };
+		856C2C924C66419CCF298452 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A294494E7A0FD454C6B4D909 /* XJHNetworkKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJHNetworkKit.podspec; path = ../XJHNetworkKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A464DD43B1D63AE3C463D2D4 /* Pods-XJHNetworkKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkKit_Tests/Pods-XJHNetworkKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCDCA9ECF280761F4DA37192 /* Pods-XJHNetworkKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkKit_Example/Pods-XJHNetworkKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,12 +152,17 @@
 			children = (
 				6003F59C195388D20070C39A /* XJHAppDelegate.h */,
 				6003F59D195388D20070C39A /* XJHAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XJHViewController.h */,
-				6003F5A6195388D20070C39A /* XJHViewController.m */,
+				15C8476A214A0E8F0056FEA0 /* XJHViewController.h */,
+				15C8476B214A0E8F0056FEA0 /* XJHViewController.m */,
+				15C8476D214A0EA00056FEA0 /* SecondViewController.h */,
+				15C8476E214A0EA00056FEA0 /* SecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				15C84770214A17210056FEA0 /* HJBaseRequest.h */,
+				15C84771214A17210056FEA0 /* HJBaseRequest.m */,
+				15C84773214A17DA0056FEA0 /* HJMoodListAPI.h */,
+				15C84774214A17DA0056FEA0 /* HJMoodListAPI.m */,
 			);
 			name = "Example for XJHNetworkKit";
 			path = XJHNetworkKit;
@@ -276,7 +288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -319,11 +330,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XJHNetworkKit_Example/Pods-XJHNetworkKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/XJHNetworkKit/XJHNetworkKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJHNetworkKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -355,8 +380,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C84772214A17210056FEA0 /* HJBaseRequest.m in Sources */,
+				15C84775214A17DA0056FEA0 /* HJMoodListAPI.m in Sources */,
+				15C8476F214A0EA00056FEA0 /* SecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* XJHAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XJHViewController.m in Sources */,
+				15C8476C214A0E8F0056FEA0 /* XJHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHNetworkKit/XJHNetworkKit-Prefix.pch";
 				INFOPLIST_FILE = "XJHNetworkKit/XJHNetworkKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +532,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHNetworkKit/XJHNetworkKit-Prefix.pch";
 				INFOPLIST_FILE = "XJHNetworkKit/XJHNetworkKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -10,12 +10,12 @@
 #endif
 #endif
 
+#import "XJHNetworkKit.h"
 #import "XJHNetworkConfig.h"
 #import "XJHNetworkConfigParamsBuilder.h"
-#import "XJHNetworkKit.h"
-#import "XJHRequest+HUDDefalut.h"
-#import "XJHRequest.h"
 #import "XJHRequestHUDProtocol.h"
+#import "XJHRequest.h"
+#import "XJHRequest+HUDDefalut.h"
 
 FOUNDATION_EXPORT double XJHNetworkKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XJHNetworkKitVersionString[];

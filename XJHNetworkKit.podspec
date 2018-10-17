@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XJHNetworkKit'
-  s.version          = '0.1.1'
-  s.summary          = 'A Custom NetworkKit Based On AFNetworking.'
+  s.version          = '0.1.2'
+  s.summary          = '基于YTKNetwork的网络框架.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A Custom NetworkKit Based On AFNetworking.'
+  s.description      = '基于YTKNetwork的网络框架.@GODXJH'
 
   s.homepage         = 'https://github.com/cocoadogs/XJHNetworkKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,8 +28,26 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XJHNetworkKit/Classes/**/*'
-  s.resource = 'XJHNetworkKit/XJHNetworkKit.bundle'
+  s.source_files = 'XJHNetworkKit/XJHNetworkKit.h'
+  
+  s.subspec 'Config' do |ss|
+      ss.public_header_files = 'XJHNetworkKit/XJHNetworkConfig.h','XJHNetworkKit/XJHNetworkConfigParamsBuilder.h'
+      ss.source_files = 'XJHNetworkKit/XJHNetworkConfig.{h,m}','XJHNetworkKit/XJHNetworkConfigParamsBuilder.{h,m}'
+  end
+  
+  s.subspec 'Request' do |ss|
+      ss.public_header_files = 'XJHNetworkKit/XJHRequest.h','XJHNetworkKit/XJHRequest+HUDDefalut.h'
+      ss.source_files = 'XJHNetworkKit/XJHRequest.{h,m}','XJHNetworkKit/XJHRequest+HUDDefalut.{h,m}'
+      ss.dependency 'XJHNetworkKit/HUDProtocol'
+      ss.resource = 'XJHNetworkKit/XJHNetworkKit.bundle'
+      ss.dependency 'XJHNetworkKit/Config'
+      ss.dependency 'MBProgressHUD', '0.9.2'
+  end
+  
+  s.subspec 'HUDProtocol' do |ss|
+      ss.public_header_files = 'XJHNetworkKit/XJHRequestHUDProtocol.h'
+      ss.source_files = 'XJHNetworkKit/XJHRequestHUDProtocol.h'
+  end
   
   # s.resource_bundles = {
   #   'XJHNetworkKit' => ['XJHNetworkKit/Assets/*.png']
@@ -39,6 +57,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'YTKNetwork', '~> 2.0.4'
-  s.dependency 'MBProgressHUD', '0.9.2'
   s.dependency 'ReactiveObjC', '~> 3.1.0'
 end

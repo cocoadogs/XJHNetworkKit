@@ -14,6 +14,7 @@
 #import<XJHNetworkKit/XJHNetworkConfig.h>
 #import<XJHNetworkKit/XJHNetworkConfigParamsBuilder.h>
 #import<XJHNetworkKit/XJHRequestHUDProtocol.h>
+#import<XJHNetworkKit/XJHRequest+HUDDefalut.h>
 
 #else
 
@@ -21,6 +22,7 @@
 #import "XJHNetworkConfig.h"
 #import "XJHNetworkConfigParamsBuilder.h"
 #import "XJHRequestHUDProtocol.h"
+#import "XJHRequest+HUDDefalut.h"
 
 #endif /* __has_include */
 
